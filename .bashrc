@@ -21,7 +21,7 @@ alias gcm="git commit -m"
 alias gacm='gaa; git commit -a -m "'
 alias gsh="git stash"
 alias gl="git log --pretty=format:"%h%x09%ai%x09%an" -10"
-alias gd="git diff"
+alias gd="git diff "
 alias gq="ck; gs; gd"
 alias gp="git pull"
 alias gph="git push"
@@ -46,5 +46,5 @@ alias rct="rails c test"
 alias srcbr="source ~/.bashrc"
 
 # terminal shortcuts
-bind -x '"\C-g":git status; git diff'
+bind -x '"\C-g":ck; git status; git diff'
 #bind -x '"\C-p":!-1'
