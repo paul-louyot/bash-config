@@ -11,6 +11,7 @@ alias ie="cd ~/Documents/dev/Flatlooker; ls"
 alias seta="vim ~/.bashrc"
 alias gb="git branch"
 alias dow="cd ~/Downloads; ls"
+alias notes="cd ~/Documents/dev/notes; ls"
 
 # git
 alias gc="git checkout "
@@ -24,9 +25,10 @@ alias gd="git diff"
 alias gq="ck; gs; gd"
 alias gp="git pull"
 alias gph="git push"
+alias gpnewb="git push -u origin HEAD"
 
-# git branches
-alias gcnh="git checkout new-homepage"
+# git checkouts
+alias gcs="git checkout staging"
 
 # workflow
 alias yifs="yarn install; foreman start"
@@ -36,6 +38,11 @@ alias sd="sublime ."
 # rails
 alias rc="rails c"
 alias rs="rails server"
+alias rct="rails c test"
 
 # source bashrc
 alias srcbr="source ~/.bashrc"
+
+# terminal shortcuts
+bind -x '"\C-g":git status; git diff'
+#bind -x '"\C-p":!-1'
