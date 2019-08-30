@@ -26,8 +26,10 @@ alias gq="ck; gs; gd"
 alias gp="git pull"
 alias gph="git push"
 alias gpnewb="git push -u origin HEAD"
+alias gammend="git commit --amend"
 
 # git checkouts
+alias gc="git checkout "
 alias gcs="git checkout staging"
 
 # workflow
