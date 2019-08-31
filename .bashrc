@@ -2,13 +2,17 @@
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
+# settings
+alias seta="vim ~/.bashrc"
+alias setv="vim ~/.vimrc"
+
+
 # actions
 alias ck="clear && printf '\e[3J' " # clear and clear scrollback buffer
 
 # nav
 alias dev="cd ~/Documents/dev; ls"
 alias ie="cd ~/Documents/dev/Flatlooker; ls"
-alias seta="vim ~/.bashrc"
 alias gb="git branch"
 alias dow="cd ~/Downloads; ls"
 alias notes="cd ~/Documents/dev/notes; ls"
