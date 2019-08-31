@@ -1,5 +1,11 @@
+# https://jasonstitt.com/gitignore-whitelisting-patterns
+
+# Ignore everything
 *
+# But descend into directories
+*/
+
 !.bashrc
 !.inputrc
 !.vimrc
-!.vim/*
+!.vim/plugins.vim
