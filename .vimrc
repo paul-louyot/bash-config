@@ -3,6 +3,10 @@ set smartindent
 set autoindent
 set ruler
 set mouse=a
+set incsearch "incremental search
+set ignorecase "incsearch
+set incsearch "incremental search
+set ignorecase "incsearch
 "set wrap
 "set linebreak
 "set nolist
@@ -20,6 +24,8 @@ nnoremap t h
 nnoremap s j
 nnoremap d k
 
+"set langmap=éd,ÉD
+
 "nnoremap s gj
 "nnoremap d gk
 "nnoremap $ g$
@@ -32,6 +38,9 @@ nnoremap d k
 "vnoremap 0 g0
 "vnoremap ^ g^
 
+" sublime-like mappings
+nmap <leader>s :w<CR>
+imap <leader>s <esc>:w<CR>
 
 " load plugins
 so ~/.vim/plugins.vim
